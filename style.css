@@ -1,0 +1,37 @@
+#button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 15px;
+    transition:0.3s;
+}
+.cards{
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    gap: 10px;
+}
+.card{
+    background-color:blue;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 9px black;
+    transition:0.3s;
+    text-decoration: none;
+}
+.card:hover{
+    transform: translateY(-5px);
+
+}
+.image{
+    text-align: start;
+}
+button:hover{
+    transform: translateY(-4px);
+}
+.other{
+    text-decoration: none;
+}
